@@ -140,11 +140,13 @@ var fa = {
 	
 		xhr.onload = function() {  
 			Titanium.API.info("REST Response: " + this.responseText);
-			if (!this.responseText) {
-				callback("");
-			} else {
-				var data = JSON.parse(this.responseText);
+            
+            var data = "";
+            
+			if (this.responseText) {
+				 data = this.responseText;
 			}
+            
 			callback(data);
 		};
 	
