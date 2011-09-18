@@ -38,24 +38,31 @@ Describes the individual metadata for the specified object. For example, this ca
 Completely describes the individual metadata at all levels for the specified object. For example, this can be used to retrieve the fields, URLs, and child relationships for the Account object.
 
 ### ForceOAuth.create() (method)
-Creates new records or updates existing records (upserts records) based on the value of a specified external ID field. 
+Creates new records.
 
 ### ForceOAuth.retrieve() (method)
+Retrieves records based on values of the record.
 
 ### ForceOAuth.update() (method)
+Updates existing records (upserts records) based on the value of a specified external ID field. 
 
 ### ForceOAuth.del() (method)
+Deletes records.
 
 ### ForceOAuth.query() (method)
+Execute a SOQL query that returns all the results in a single response, or if needed, returns part of the results and an identifier used to retrieve the remaining results.
 
 ### ForceOAuth.search() (method)
+Execute the specified SOSL search. The search string, in this example {test}, must be URL-encoded.
 
 ### ForceOAuth.recordFeed() (method)
+The feed of the specified record, which could be a group, person, object or file.
 
 ### ForceOAuth.newsFeed() (method)
+The news feed of the current user. Includes feed items from all groups the current user either owns or is a member of, as well as all files, records, and all users the current user follows. You can also use this resource to add feed-items. 
 
 ### ForceOAuth.profileFeed() (method)
-
+Feed of all actions by the current, logged-in user on all records that can be tracked in a feed. This is different than the news feed, which returns everything in a user's feed, including posts, status updates, group updates, and record updates. Also used to add feed items.
 
 ## Author
 
