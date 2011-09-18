@@ -22,11 +22,11 @@
 /* End PBXAggregateTarget section */
 
 /* Begin PBXBuildFile section */
-		24DD6CF91134B3F500162E58 /* ComTestModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComTestModule.h */; };
-		24DD6CFA1134B3F500162E58 /* ComTestModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComTestModule.m */; };
-		24DE9E1111C5FE74003F90F6 /* ComTestModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComTestModuleAssets.h */; };
-		24DE9E1211C5FE74003F90F6 /* ComTestModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComTestModuleAssets.m */; };
-		AA747D9F0F9514B9006C5449 /* ComTest_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComTest_Prefix.pch */; };
+		24DD6CF91134B3F500162E58 /* ComSalesforceModule.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DD6CF71134B3F500162E58 /* ComSalesforceModule.h */; };
+		24DD6CFA1134B3F500162E58 /* ComSalesforceModule.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DD6CF81134B3F500162E58 /* ComSalesforceModule.m */; };
+		24DE9E1111C5FE74003F90F6 /* ComSalesforceModuleAssets.h in Headers */ = {isa = PBXBuildFile; fileRef = 24DE9E0F11C5FE74003F90F6 /* ComSalesforceModuleAssets.h */; };
+		24DE9E1211C5FE74003F90F6 /* ComSalesforceModuleAssets.m in Sources */ = {isa = PBXBuildFile; fileRef = 24DE9E1011C5FE74003F90F6 /* ComSalesforceModuleAssets.m */; };
+		AA747D9F0F9514B9006C5449 /* ComSalesforce_Prefix.pch in Headers */ = {isa = PBXBuildFile; fileRef = AA747D9E0F9514B9006C5449 /* ComSalesforce_Prefix.pch */; };
 		AACBBE4A0F95108600F1A2B1 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = AACBBE490F95108600F1A2B1 /* Foundation.framework */; };
 /* End PBXBuildFile section */
 
@@ -36,19 +36,19 @@
 			containerPortal = 0867D690FE84028FC02AAC07 /* Project object */;
 			proxyType = 1;
 			remoteGlobalIDString = D2AAC07D0554694100DB518D;
-			remoteInfo = "test2";
+			remoteInfo = "salesforce";
 		};
 /* End PBXContainerItemProxy section */
 
 /* Begin PBXFileReference section */
-		24DD6CF71134B3F500162E58 /* ComTestModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComTestModule.h"; path = "Classes/ComTestModule.h"; sourceTree = "<group>"; };
-		24DD6CF81134B3F500162E58 /* ComTestModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComTestModule.m"; path = "Classes/ComTestModule.m"; sourceTree = "<group>"; };
+		24DD6CF71134B3F500162E58 /* ComSalesforceModule.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComSalesforceModule.h"; path = "Classes/ComSalesforceModule.h"; sourceTree = "<group>"; };
+		24DD6CF81134B3F500162E58 /* ComSalesforceModule.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComSalesforceModule.m"; path = "Classes/ComSalesforceModule.m"; sourceTree = "<group>"; };
 		24DD6D1B1134B66800162E58 /* titanium.xcconfig */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = text.xcconfig; path = titanium.xcconfig; sourceTree = "<group>"; };
-		24DE9E0F11C5FE74003F90F6 /* ComTestModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComTestModuleAssets.h"; path = "Classes/ComTestModuleAssets.h"; sourceTree = "<group>"; };
-		24DE9E1011C5FE74003F90F6 /* ComTestModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComTestModuleAssets.m"; path = "Classes/ComTestModuleAssets.m"; sourceTree = "<group>"; };
-		AA747D9E0F9514B9006C5449 /* ComTest_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComTest_Prefix.pch"; sourceTree = SOURCE_ROOT; };
+		24DE9E0F11C5FE74003F90F6 /* ComSalesforceModuleAssets.h */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; name = "ComSalesforceModuleAssets.h"; path = "Classes/ComSalesforceModuleAssets.h"; sourceTree = "<group>"; };
+		24DE9E1011C5FE74003F90F6 /* ComSalesforceModuleAssets.m */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.objc; name = "ComSalesforceModuleAssets.m"; path = "Classes/ComSalesforceModuleAssets.m"; sourceTree = "<group>"; };
+		AA747D9E0F9514B9006C5449 /* ComSalesforce_Prefix.pch */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.c.h; path = "ComSalesforce_Prefix.pch"; sourceTree = SOURCE_ROOT; };
 		AACBBE490F95108600F1A2B1 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = System/Library/Frameworks/Foundation.framework; sourceTree = SDKROOT; };
-		D2AAC07E0554694100DB518D /* libComTest.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComTest.a"; sourceTree = BUILT_PRODUCTS_DIR; };
+		D2AAC07E0554694100DB518D /* libComSalesforce.a */ = {isa = PBXFileReference; explicitFileType = archive.ar; includeInIndex = 0; path = "libComSalesforce.a"; sourceTree = BUILT_PRODUCTS_DIR; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,12 +66,12 @@
 		034768DFFF38A50411DB9C8B /* Products */ = {
 			isa = PBXGroup;
 			children = (
-				D2AAC07E0554694100DB518D /* libComTest.a */,
+				D2AAC07E0554694100DB518D /* libComSalesforce.a */,
 			);
 			name = Products;
 			sourceTree = "<group>";
 		};
-		0867D691FE84028FC02AAC07 /* test2 */ = {
+		0867D691FE84028FC02AAC07 /* salesforce */ = {
 			isa = PBXGroup;
 			children = (
 				08FB77AEFE84172EC02AAC07 /* Classes */,
@@ -79,7 +79,7 @@
 				0867D69AFE84028FC02AAC07 /* Frameworks */,
 				034768DFFF38A50411DB9C8B /* Products */,
 			);
-			name = "test2";
+			name = "salesforce";
 			sourceTree = "<group>";
 		};
 		0867D69AFE84028FC02AAC07 /* Frameworks */ = {
@@ -93,10 +93,10 @@
 		08FB77AEFE84172EC02AAC07 /* Classes */ = {
 			isa = PBXGroup;
 			children = (
-				24DE9E0F11C5FE74003F90F6 /* ComTestModuleAssets.h */,
-				24DE9E1011C5FE74003F90F6 /* ComTestModuleAssets.m */,
-				24DD6CF71134B3F500162E58 /* ComTestModule.h */,
-				24DD6CF81134B3F500162E58 /* ComTestModule.m */,
+				24DE9E0F11C5FE74003F90F6 /* ComSalesforceModuleAssets.h */,
+				24DE9E1011C5FE74003F90F6 /* ComSalesforceModuleAssets.m */,
+				24DD6CF71134B3F500162E58 /* ComSalesforceModule.h */,
+				24DD6CF81134B3F500162E58 /* ComSalesforceModule.m */,
 			);
 			name = Classes;
 			sourceTree = "<group>";
@@ -104,7 +104,7 @@
 		32C88DFF0371C24200C91783 /* Other Sources */ = {
 			isa = PBXGroup;
 			children = (
-				AA747D9E0F9514B9006C5449 /* ComTest_Prefix.pch */,
+				AA747D9E0F9514B9006C5449 /* ComSalesforce_Prefix.pch */,
 				24DD6D1B1134B66800162E58 /* titanium.xcconfig */,
 			);
 			name = "Other Sources";
@@ -117,18 +117,18 @@
 			isa = PBXHeadersBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				AA747D9F0F9514B9006C5449 /* ComTest_Prefix.pch in Headers */,
-				24DD6CF91134B3F500162E58 /* ComTestModule.h in Headers */,
-				24DE9E1111C5FE74003F90F6 /* ComTestModuleAssets.h in Headers */,
+				AA747D9F0F9514B9006C5449 /* ComSalesforce_Prefix.pch in Headers */,
+				24DD6CF91134B3F500162E58 /* ComSalesforceModule.h in Headers */,
+				24DE9E1111C5FE74003F90F6 /* ComSalesforceModuleAssets.h in Headers */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
 /* End PBXHeadersBuildPhase section */
 
 /* Begin PBXNativeTarget section */
-		D2AAC07D0554694100DB518D /* test2 */ = {
+		D2AAC07D0554694100DB518D /* salesforce */ = {
 			isa = PBXNativeTarget;
-			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "test2" */;
+			buildConfigurationList = 1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "salesforce" */;
 			buildPhases = (
 				D2AAC07A0554694100DB518D /* Headers */,
 				D2AAC07B0554694100DB518D /* Sources */,
@@ -138,9 +138,9 @@
 			);
 			dependencies = (
 			);
-			name = "test2";
-			productName = "test2";
-			productReference = D2AAC07E0554694100DB518D /* libComTest.a */;
+			name = "salesforce";
+			productName = "salesforce";
+			productReference = D2AAC07E0554694100DB518D /* libComSalesforce.a */;
 			productType = "com.apple.product-type.library.static";
 		};
 /* End PBXNativeTarget section */
@@ -148,7 +148,7 @@
 /* Begin PBXProject section */
 		0867D690FE84028FC02AAC07 /* Project object */ = {
 			isa = PBXProject;
-			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "test2" */;
+			buildConfigurationList = 1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "salesforce" */;
 			compatibilityVersion = "Xcode 3.1";
 			developmentRegion = English;
 			hasScannedForEncodings = 1;
@@ -158,12 +158,12 @@
 				French,
 				German,
 			);
-			mainGroup = 0867D691FE84028FC02AAC07 /* test2 */;
+			mainGroup = 0867D691FE84028FC02AAC07 /* salesforce */;
 			productRefGroup = 034768DFFF38A50411DB9C8B /* Products */;
 			projectDirPath = "";
 			projectRoot = "";
 			targets = (
-				D2AAC07D0554694100DB518D /* test2 */,
+				D2AAC07D0554694100DB518D /* salesforce */,
 				24416B8111C4CA220047AFDD /* Build & Test */,
 			);
 		};
@@ -190,8 +190,8 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
-				24DD6CFA1134B3F500162E58 /* ComTestModule.m in Sources */,
-				24DE9E1211C5FE74003F90F6 /* ComTestModuleAssets.m in Sources */,
+				24DD6CFA1134B3F500162E58 /* ComSalesforceModule.m in Sources */,
+				24DE9E1211C5FE74003F90F6 /* ComSalesforceModuleAssets.m in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -200,7 +200,7 @@
 /* Begin PBXTargetDependency section */
 		24416B8511C4CA280047AFDD /* PBXTargetDependency */ = {
 			isa = PBXTargetDependency;
-			target = D2AAC07D0554694100DB518D /* test2 */;
+			target = D2AAC07D0554694100DB518D /* salesforce */;
 			targetProxy = 24416B8411C4CA280047AFDD /* PBXContainerItemProxy */;
 		};
 /* End PBXTargetDependency section */
@@ -213,15 +213,15 @@
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
 				COPY_PHASE_STRIP = NO;
-				DSTROOT = "/tmp/ComTest.dst";
+				DSTROOT = "/tmp/ComSalesforce.dst";
 				GCC_DYNAMIC_NO_PIC = NO;
 				GCC_ENABLE_FIX_AND_CONTINUE = YES;
 				GCC_MODEL_TUNING = G5;
 				GCC_OPTIMIZATION_LEVEL = 0;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTest_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComSalesforce_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "ComTest";
+				PRODUCT_NAME = "ComSalesforce";
 			};
 			name = Debug;
 		};
@@ -231,12 +231,12 @@
 			buildSettings = {
 				ALWAYS_SEARCH_USER_PATHS = NO;
 				ARCHS = "$(ARCHS_STANDARD_32_BIT)";
-				DSTROOT = "/tmp/ComTest.dst";
+				DSTROOT = "/tmp/ComSalesforce.dst";
 				GCC_MODEL_TUNING = G5;
 				GCC_PRECOMPILE_PREFIX_HEADER = YES;
-				GCC_PREFIX_HEADER = "ComTest_Prefix.pch";
+				GCC_PREFIX_HEADER = "ComSalesforce_Prefix.pch";
 				INSTALL_PATH = /usr/local/lib;
-				PRODUCT_NAME = "ComTest";
+				PRODUCT_NAME = "ComSalesforce";
 			};
 			name = Release;
 		};
@@ -295,7 +295,7 @@
 /* End XCBuildConfiguration section */
 
 /* Begin XCConfigurationList section */
-		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "test2" */ = {
+		1DEB921E08733DC00010E9CD /* Build configuration list for PBXNativeTarget "salesforce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB921F08733DC00010E9CD /* Debug */,
@@ -304,7 +304,7 @@
 			defaultConfigurationIsVisible = 0;
 			defaultConfigurationName = Release;
 		};
-		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "test2" */ = {
+		1DEB922208733DC00010E9CD /* Build configuration list for PBXProject "salesforce" */ = {
 			isa = XCConfigurationList;
 			buildConfigurations = (
 				1DEB922308733DC00010E9CD /* Debug */,

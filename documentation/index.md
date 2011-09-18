@@ -1,33 +1,54 @@
-# test2 Module
+# salesforce Module
 
 ## Description
 
-TODO: Enter your module description here
+Access and use the Salesforce REST API
 
-## Accessing the test2 Module
+## Accessing the salesforce Module
 
 To access this module from JavaScript, you would do the following:
 
-	var test2 = require("com.test");
+	var salesforce = require("com.salesforce");
 
-The test2 variable is a reference to the Module object.	
+The salesforce variable is a reference to the Module object.	
 
 ## Reference
 
-TODO: If your module has an API, you should document
-the reference here.
+### ForceOAuth (property)
+This property/namespace holds the API calls for the module
 
-### ___PROJECTNAMEASIDENTIFIER__.function
+### ForceOAuth.resources() (method)
 
-TODO: This is an example of a module function.
+### ForceOAuth.versions() (method)
 
-### ___PROJECTNAMEASIDENTIFIER__.property
+### ForceOAuth.refreshAccessToken() (method)
 
-TODO: This is an example of a module property.
+### ForceOAuth.setRefreshToken() (method)
 
-## Usage
+### ForceOAuth.describeGlobal() (method)
 
-TODO: Enter your usage example here
+### ForceOAuth.metadata() (method)
+
+### ForceOAuth.describe() (method)
+
+### ForceOAuth.create() (method)
+
+### ForceOAuth.retrieve() (method)
+
+### ForceOAuth.update() (method)
+
+### ForceOAuth.del() (method)
+
+### ForceOAuth.query() (method)
+
+### ForceOAuth.search() (method)
+
+### ForceOAuth.recordFeed() (method)
+
+### ForceOAuth.newsFeed() (method)
+
+### ForceOAuth.profileFeed() (method)
+
 
 ## Author
 
@@ -36,4 +57,4 @@ details you want to share here.
 
 ## License
 
-TODO: Enter your license/legal information here.
+See LICENSE file for details

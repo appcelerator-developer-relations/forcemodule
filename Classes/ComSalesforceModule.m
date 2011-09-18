@@ -4,25 +4,25 @@
  * Appcelerator Titanium is Copyright (c) 2009-2010 by Appcelerator, Inc.
  * and licensed under the Apache Public License (version 2)
  */
-#import "ComTestModule.h"
+#import "ComSalesforceModule.h"
 #import "TiBase.h"
 #import "TiHost.h"
 #import "TiUtils.h"
 
-@implementation ComTestModule
+@implementation ComSalesforceModule
 
 #pragma mark Internal
 
 // this is generated for your module, please do not change it
 -(id)moduleGUID
 {
-	return @"955d6ed0-dca5-46d9-88e8-96847620266c";
+	return @"f2d8039e-0416-443b-96af-aa67ca6f61a2";
 }
 
 // this is generated for your module, please do not change it
 -(NSString*)moduleId
 {
-	return @"com.test";
+	return @"com.salesforce";
 }
 
 #pragma mark Lifecycle

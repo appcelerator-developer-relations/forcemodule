@@ -60,7 +60,7 @@ def generate_doc(config):
 	return documentation
 
 def compile_js(manifest,config):
-	js_file = os.path.join(cwd,'assets','com.test.js')
+	js_file = os.path.join(cwd,'assets','com.salesforce.js')
 	if not os.path.exists(js_file): return
 	
 	sdk = config['TITANIUM_SDK']
@@ -74,7 +74,7 @@ def compile_js(manifest,config):
 	eq = path.replace('.','_')
 	method = '  return %s;' % method
 	
-	f = os.path.join(cwd,'Classes','ComTestModuleAssets.m')
+	f = os.path.join(cwd,'Classes','ComSalesforceModuleAssets.m')
 	c = open(f).read()
 	idx = c.find('return ')
 	before = c[0:idx]
@@ -121,7 +121,7 @@ def validate_manifest():
 			if curvalue==defvalue: warn("please update the manifest key: '%s' to a non-default value" % key)
 	return manifest,path
 
-ignoreFiles = ['.DS_Store','.gitignore','libTitanium.a','titanium.jar','README','com.test.js']
+ignoreFiles = ['.DS_Store','.gitignore','libTitanium.a','titanium.jar','README','com.salesforce.js']
 ignoreDirs = ['.DS_Store','.svn','.git','CVSROOT']
 
 def zip_dir(zf,dir,basepath,ignore=[]):

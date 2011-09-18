@@ -6,7 +6,7 @@
  */
 #import "TiModule.h"
 
-@interface ComTestModule : TiModule 
+@interface ComSalesforceModule : TiModule 
 {
 }
 

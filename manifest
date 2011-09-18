@@ -10,8 +10,8 @@ copyright: Copyright (c) 2011 by Your Company
 
 
 # these should not be edited
-name: test2
-moduleid: com.test
-guid: 955d6ed0-dca5-46d9-88e8-96847620266c
+name: salesforce
+moduleid: com.salesforce
+guid: f2d8039e-0416-443b-96af-aa67ca6f61a2
 platform: iphone
-minsdk: 1.7.0
+minsdk: 1.7.2
