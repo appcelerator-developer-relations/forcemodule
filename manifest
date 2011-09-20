@@ -2,11 +2,11 @@
 # this is your module manifest and used by Titanium
 # during compilation, packaging, distribution, etc.
 #
-version: 0.1
-description: My module
-author: Your Name
-license: Specify your license
-copyright: Copyright (c) 2011 by Your Company
+version: 1.0
+description: SalesForce
+author: Sales Force
+license: See LICENSE file
+copyright: Copyright (c) 2011 by Sales Force inc
 
 
 # these should not be edited
